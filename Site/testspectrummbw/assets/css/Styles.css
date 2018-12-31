@@ -1,0 +1,172 @@
+body {
+    color: #414143;
+    font-family: Arial;
+    background: url('../img/GalaxyBack.jpg') no-repeat center center fixed;
+    /* background-size: 100%; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    color: white;
+    font-weight: bold;
+    font-size: 16pt;
+    /* border-bottom: 2px solid #481b64; */
+    /* background-color: #784499; */
+    border-bottom: 2px solid #3b3a97;
+    background-color: #9c47a3;
+}
+
+    .navbar a {
+        color: white;
+    }
+
+    .navbar a:hover {
+        color: #020061;
+    }
+
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float: none;
+    max-width: 1000px;
+}
+
+.nav-item {
+    width: 25%;
+    text-align: center;
+}
+
+.siteFooter {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid #3b3a97;
+    background-color: #9c47a3;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 10px 10px 10px 10px;
+}
+
+.siteFooter a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.siteFooter a:hover {
+    color: gray;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+    width: 30%;
+}
+
+.contentHolder {
+    padding-top: 25px;
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(to right, rgba(255,255,255,0), white 3%, white 97%, rgba(255,255,255,0));
+    min-height: calc(100vh - 25px);
+    padding-bottom: 20px;
+}
+
+.mainPage {
+    text-align: justify;
+}
+
+.form-group {
+    padding: 5px 5px 5px 5px;
+}
+
+.form-inline label {
+    justify-content: flex-start !important;
+}
+
+.btn {
+    color: white;
+    background-color: indigo;
+}
+
+.contentBlocks {
+    clear: both;
+}
+
+.contentBlocks div {
+    min-width:200px;
+    text-align: center;
+}
+
+.contentBlocks i {
+    color: indigo;
+    font-size: 30pt;
+}
+
+.underConstruction {
+    text-align: center;
+}
+
+.pageTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.valSum {
+    color: #BB0000;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+@media (min-width: 1032px)
+{ 
+    .container {
+        max-width: 900px !important;
+    }
+}
+
+@media (max-width: 1136px) {
+    body {
+        background: none;
+    }
+    .contentHolder {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobileNav {
+        display: none;
+    }
+}
+
+
+
+/* @media (min-width: 1032px) {
+    .contentHolder {
+        width: 100%;
+    }
+} */
+
+@media (max-width: 768px) {
+    .underConstruction img {
+        width: 80%;
+    }
+    .screenNav {
+        display: none;
+    }
+    .nav-item {
+        text-align: left;
+    }
+}

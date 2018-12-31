@@ -1,0 +1,22 @@
+Colors
+
+Card1
+Pink #ea2790
+Purple #7152a0
+Red #e32833
+Font (Grey) #414143
+
+Card2
+Purple #784499
+Teal #3dc2bf
+Pink #e3abce
+Font Header (D Grey) #3d3d3f
+Font Subheader (L Grey) #7a7a7c
+
+PowerPoint
+G1 Magenta #ff4bff
+G1 Red #d72538
+G2 D Blue #000048
+G2 Blue #4857ff
+L Blue #a1fbfb
+Logo Font: Harrington Regular
